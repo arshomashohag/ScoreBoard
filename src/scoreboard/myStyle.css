@@ -1,0 +1,35 @@
+ #pane{
+    -fx-background-image: url("image.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+ 
+ 
+.Hbox{
+   
+    -fx-padding: 2.5;
+    -fx-background-radius: 2;
+    -fx-border-width: 1;
+    -fx-background-color:#ccccff;
+}
+.button{
+    -fx-background-color:transparent;
+    -fx-background-size:auto;
+      
+}
+.button:hover{
+    -fx-background-color:#ffffff;
+     
+}
+
+
+#font {
+   
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, greenyellow 0%, red 100%);
+    -fx-stroke: green;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-stroke-width: 1;
+}
